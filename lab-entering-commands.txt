@@ -1,22 +1,14 @@
-
-Lab - Entering Commands
-==========
-Follow the instructions line-by-line.  
-
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
-* "No output" or "nothing happens" are valid answers to any of the questions.
-==========
-
-
-
-==========
 1. Open Terminal.  Type:
 
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Applications	Library		Pictures	VirtualBox VMs	vms
+Desktop		Movies		Public		animals
+Documents	Music		Sites		foo
+Downloads	My Song.band	Things		food
+ent-v314-013:~ student$ D
 
 
 
@@ -28,18 +20,35 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+DeRez             DevToolsSecurity  DirectoryService
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+.CFUserTextEncoding  .gitconfig           Library/
+.DS_Store            .jssc/               Movies/
+.Trash/              .korsakow/           Music/
+.Xauthority          .kueoqoye            My Song.band/
+.adobe/              .oracle_jre_usage/   Pictures/
+.android/            .replicatorg/        Public/
+.bash_history        .ssh/                Sites/
+.config/             .thumbnails/         Things/
+.cups/               .vagrant.d/          VirtualBox VMs/
+.dia/                .xwcafmtrc           animals/
+.dia-etc/            .xwcbaktrc           foo/
+.eaglerc             Applications/        food/
+.eclipse/            Desktop/             vms/
+.fontconfig/         Documents/           
+.freemind/           Downloads/     
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+Applications	Library		Pictures	VirtualBox VMs	vms
+Desktop		Movies		Public		animals
+Documents	Music		Sites		foo
+Downloads	My Song.band	Things		food
 
 
 ==========
@@ -49,6 +58,28 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+Adobe
+AdobeStockPhotos
+Arduino
+Avid Projects
+Blender Games
+Color Documents
+Eclipse
+Eclipse Workspace
+Final Cut Pro Documents
+Final Cut Scratch
+Max
+Microsoft User Data
+Pro Tools
+Processing
+REAPER Media
+Student Work
+Test
+Twine
+Version Cue
+Wacom Tablet Tutorial
+eagle
+workspace
 
 
 
@@ -60,7 +91,17 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.			Arduino			Processing
+..			Avid Projects		REAPER Media
+.45CEA7F0455BDF7D	Blender Games		Student Work
+.94519194622653AC	Color Documents		Test
+.DS9LR9KW7HCW105GOX5	Eclipse			Twine
+.DS_Store		Eclipse Workspace	Version Cue
+.RA5PAB5TCC18I		Final Cut Pro Documents	Wacom Tablet Tutorial
+.localized		Final Cut Scratch	eagle
+.promptCache		Max			workspace
+Adobe			Microsoft User Data
+AdobeStockPhotos	Pro Tools
 
 ==========
 5.  Type:
@@ -70,7 +111,17 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+.			Arduino			Processing
+..			Avid Projects		REAPER Media
+.45CEA7F0455BDF7D	Blender Games		Student Work
+.94519194622653AC	Color Documents		Test
+.DS9LR9KW7HCW105GOX5	Eclipse			Twine
+.DS_Store		Eclipse Workspace	Version Cue
+.RA5PAB5TCC18I		Final Cut Pro Documents	Wacom Tablet Tutorial
+.localized		Final Cut Scratch	eagle
+.promptCache		Max			workspace
+Adobe			Microsoft User Data
+AdobeStockPhotos	Pro Tools
 
 ==========
 6.  Type:
@@ -80,6 +131,17 @@ What command was repeated?
 What command was repeated?
 ----------
 
+.			Arduino			Processing
+..			Avid Projects		REAPER Media
+.45CEA7F0455BDF7D	Blender Games		Student Work
+.94519194622653AC	Color Documents		Test
+.DS9LR9KW7HCW105GOX5	Eclipse			Twine
+.DS_Store		Eclipse Workspace	Version Cue
+.RA5PAB5TCC18I		Final Cut Pro Documents	Wacom Tablet Tutorial
+.localized		Final Cut Scratch	eagle
+.promptCache		Max			workspace
+Adobe			Microsoft User Data
+AdobeStockPhotos	Pro Tools
 
 
 ==========
@@ -89,7 +151,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Macintosh HD
 
 
 ==========
@@ -100,62 +162,34 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<UP>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+COMMAND and pwd
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+COMMAND
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
-
-==========
-14.  Type:
-
-$ foo<ENTER>
-
-Copy and paste the output below.
-----------
-
-
-
-==========
-15.  Type:
-
-<UP><ENTER>
-
-Copy and paste the output below.
-----------
-
-
-
-==========
-16.  In the following line....
-
-$ ls -a Desktop
-
-What is the command, flag, argument, and prompt?
-----------
+<doesnotexist>

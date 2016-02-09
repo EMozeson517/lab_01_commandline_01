@@ -17,6 +17,11 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Adlm			Documents		Movies
+Adobe Illustrator CS6	Downloads		Music
+Adobe Photoshop CS6	Dropbox			Pictures
+Applications		Graboid			Public
+Desktop			Library
 
 
 
@@ -27,18 +32,20 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
+Desktop/   Documents/ Downloads/ Dropbox/   
 
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Display all 1445 possibilities? (y or n)
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+Evans-MacBook-Pro:~ evanmozeson$ 
 
 
 
@@ -48,6 +55,8 @@ What happens?  Describe it below.
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
+EvanMozeson's2014resume.docx
+EvanMozeson's2015resume.docx
 ----------
 
 
@@ -59,7 +68,14 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.				Evan_Mozeson_Resume2014.pdf
+..				Facts.html
+.DS_Store			Fandango2014.docx
+.localized			Flixster Collections.app
+Adobe				Metcoverletter.docx
+EvanMozeson's2014resume.docx	Microsoft User Data
+EvanMozeson's2015resume.docx	Movie Tickets Purchased.rtf
+Evan_Mozeson_Resume2012.doc	maya
 
 
 ==========
@@ -69,7 +85,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+Yes
 
 
 ==========
@@ -79,6 +95,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
+Yes
 
 
 
@@ -89,7 +106,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Macintosh HD
 
 
 ==========
@@ -100,36 +117,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+Up and Down
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+ls doesnotexist
+ls <ENTER>
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+<ENTER> and <TAB>
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+$ ls <ENTER>
 
 
 ==========
@@ -139,7 +158,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+bash: foo: command not found
 
 
 ==========
@@ -150,12 +169,18 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+bash: foo: command not found
 
 ==========
 16.  In the following line....
 
 $ ls -a Desktop
-
+.				Jeanne
+..				MacKeeper 21-41-45-909.app
+.DS_Store			MacKeeper.app
+.localized			RDC Connections
+Evan				extraforclass_data
+EvanMozeson.pdf			snoopy.jpg__285x600_q85.jpg
 What is the command, flag, argument, and prompt?
 ----------
+<UP><DOWN><ENTER><TAB>
